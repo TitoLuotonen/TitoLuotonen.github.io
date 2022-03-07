@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", onkoKirjautunut);
 
 function onkoKirjautunut(){
-    let kirjautunut = 'kyllä';
-    if(kirjautunut === 'kyllä'){
+    let kirjautunut = 'kylla';
+    if(kirjautunut === 'kylla'){
         document.getElementById('tervetulo_teksti').textContent += ' Tito!';
     }
 }
